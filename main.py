@@ -1,11 +1,11 @@
 import requests
 from gui import *
 
- # create pyqt6 app
+# create pyqt6 app
 app = QApplication(sys.argv)
 
 # create the instance of the window
-window = MainWindow()
+window = mainWindow()
 
 
 # response = requests.get("https://www.google.com/maps/search/?api=1&query=centurylink+field")
@@ -13,6 +13,3 @@ window = MainWindow()
 
 # Use answers from form to create nodes that
 # will be used to perform dijakstra's algorithm
-
-
-
